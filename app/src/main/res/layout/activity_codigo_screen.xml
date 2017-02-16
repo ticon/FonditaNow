@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_codigo_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bethinktech.mx.pantallas.CodigoScreen">
+
+    <TextView
+        android:text="@string/texto_codigo_celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/layout_condicion"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true">
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_uno"
+            android:layout_weight="0.00"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_width="35dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_dos"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_tres"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_cuatro"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_cinco"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_seis"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <requestFocus></requestFocus>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/texto_codigo_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_condicion"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/layout_condicion"
+        android:layout_alignStart="@+id/layout_condicion"
+        android:layout_marginTop="10dp">
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_uno_email"
+            android:layout_weight="0.00"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_width="35dp" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_dos_email"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_tres_email"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_cuatro_email"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_cinco_email"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+
+        <EditText
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/edit_seis_email"
+            android:text=""
+            android:maxLength="1"
+            android:gravity="center"
+            android:layout_weight="0.00" />
+    </LinearLayout>
+
+</RelativeLayout>

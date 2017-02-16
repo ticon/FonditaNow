@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FonditaNow</string>
+
+    <string name="hint_usuario">Número celular</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_apellido">Apellido</string>
+    <string name="hint_direccion">Dirección</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_registrar">REGISTRAR</string>
+    <string name="btn_link_registar">No eres miembro? Registrar</string>
+    <string name="bnt_link_login">Estas registrado! Iniciar sesión</string>
+    <string name="btn_cerrar_sesion">Cerrar sesión</string>
+    <string name="btn_recuperar_contraseña">Recuperar contraseña</string>
+
+    <string name="btn_fondero">FONDERO</string>
+    <string name="btn_comensal">COMENSAL</string>
+    <string name="texto_codigo_celular">Ingresar el codigo para validar</string>
+    <string name="texto_codigo_email">Ingresar codigo para validar el email</string>
+
+    <string name="text_button_zero">0</string>
+    <string name="text_button_uno">1</string>
+    <string name="text_button_dos">2</string>
+    <string name="text_button_tres">3</string>
+    <string name="text_button_cuatro">4</string>
+    <string name="text_button_cinco">5</string>
+    <string name="text_button_seis">6</string>
+    <string name="text_button_siete">7</string>
+    <string name="text_button_ocho">8</string>
+    <string name="text_button_nueve">9</string>
+
+    <string name="text_button_salir">Salir</string>
+    <string name="text_button_borrar">Borrar</string>
+
+</resources>
